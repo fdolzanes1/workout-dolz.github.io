@@ -4,4 +4,4 @@
 
 Link: http://workoutlog.dolzanes.com/
 
-webSite http://dolzanes.com/
+WebSite http://dolzanes.com/
