@@ -1,2 +1,2 @@
-# workoutlogdolz.github.io
+# workoutlog
 App Workout Log
