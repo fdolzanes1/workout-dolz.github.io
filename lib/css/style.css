@@ -1,0 +1,70 @@
+.equipe {
+  width: 598px;
+  height: 60px;
+  border: 1px solid #999;
+  /* BORDA CINZA ESCURO */
+  margin: 8px 0 0 1px;
+}
+
+.equipe ul {
+  list-style: none;
+}
+
+.equipe ul li {
+  float: left;
+  margin: 0px 0px 0px 0px;
+  /* border-bottom: 1px dotted #CCC; */
+}
+
+.equipe ul li small {
+  font: 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #0391E4;
+  /* AZUL CLARINHO */
+  font-weight: bold;
+}
+
+.equipe ul li p {
+  padding-bottom: 3px;
+  font: 12px Arial, Helvetica, sans-serif;
+  color: #999;
+  text-align: justify;
+}
+
+.equipe ul li .nome {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.equipe .tag {
+  background: #FFF;
+  width: 110px;
+  text-align: center;
+  float: left;
+  position: relative;
+  top: -13px;
+  font: 15px Verdana, Geneva, sans-serif;
+  color: #000000;
+  margin: 0 20px;
+  padding: 0 5px;
+}
+
+
+/* cabecalho */
+
+.container {
+  padding-top: 25px;
+}
+
+.head p {
+  font-family: Comic Sans MS;
+  font-size: large;
+}
+
+
+/* fim cabecalho */
+
+/* tabela  */
+
+table {
+  border: solid 1px #999;
+}

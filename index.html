@@ -1,0 +1,61 @@
+<html ng-app="workoutlog">
+<head>
+<title>Log</title>
+<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+<script type="text/javascript" src="bower_components/angular-animate/angular-animate.js"></script>
+<script type="text/javascript" src="bower_components/angular-aria/angular-aria.min.js"></script>
+<script type="text/javascript" src="bower_components/angular-messages/angular-messages.min.js"></script>
+<script type="text/javascript" src="bower_components/angular-material/angular-material.js"></script>
+<script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+<script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-114/svg-assets-cache.js"></script>
+</head>
+<body ng-controller="workCtrl">
+	<div class="container" align="center">
+	<div class="head">
+		<p>Workout Log</p>
+	</div>
+	<div class="equipe">
+		<span class="tag"> Insert an Item </span> 
+		<ul>
+			<li> 
+			<input type="text" size="7" placeholder="Time" ng-model="work.time"/>
+			<select ng-model="work.nome">
+			  <option  value="">Select Option</option>
+			  <option  value="Run">Run</option>
+			  <option  value="Bike">Bike</option>
+		    <option  value="Swimming">Swimming</option>
+			</select>
+			<md-datepicker ng-model="work.date" md-placeholder="Enter date"></md-datepicker>
+		  <button ng-click="adicionar(work)" ng-disabled="!work.date || !work.nome || !work.time ">Add</button>
+			</li>
+   	</ul>
+	</div>
+	<hr width="50%" />
+	<div>
+		<table class="tags" width="50%">
+			<thead>
+				<td><b>Tempo</b></td>
+				<td><b>Tipo</b></td>
+				<td><b>Data</b></td>
+				<td><b>Del</b></td>
+			</thead>
+			<tfoot> 
+			  <tr align="center">
+			  	<td colspan="4">{{ total }} hours of exercises.</td>
+			  </tr>
+			</tfoot>
+			<tbody ng-repeat="work in works">
+				<td>{{work.time}}</td>
+				<td>{{work.nome}}</td>
+				<td>{{work.date | date : "dd/MM/yyyy"}}</td>
+				<td><img ng-click="remover($index)" src="lib/img/remove.png"/><td>
+			</tbody>
+		</table>
+	</div>
+	</div>
+<link rel="stylesheet" type="text/css" href="lib/css/style.css">
+<link rel="stylesheet" type="text/css" href="lib/css/datepicker.css">
+<link rel="stylesheet" type="text/css" href="bower_components/angular-material/angular-material.css">
+<script type="text/javascript" src="lib/app/app.js"></script>
+</body>
+</html>
