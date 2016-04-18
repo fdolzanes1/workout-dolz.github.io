@@ -1,8 +1,7 @@
 .equipe {
-  width: 598px;
+  width: 652px;
   height: 60px;
   border: 1px solid #999;
-  /* BORDA CINZA ESCURO */
   margin: 8px 0 0 1px;
 }
 
@@ -68,3 +67,5 @@
 table {
   border: solid 1px #999;
 }
+
+/* fim tabela  */
