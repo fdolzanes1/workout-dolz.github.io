@@ -1,6 +1,6 @@
 #App Workout Log
 
-![cover] (http://workoutlog.dolzanes.com/lib/img/01.jpg)
+![cover] (http://www.dolzanes.com/dph/images/fulls/09.jpg)
 
 Test Proficiency to Front End Developer 
 
