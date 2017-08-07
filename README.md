@@ -1,7 +1,5 @@
 #App Workout Log
 
-![cover] (http://www.dolzanes.com/dph/images/fulls/09.jpg)
-
 Test Proficiency to Front End Developer 
 
 Small app to log physical activities. Client-side only.
@@ -13,6 +11,6 @@ dependencies:
 - angular.js 
 - bower
 
-Link: http://workoutlog.dolzanes.com/
+Link: https://fdolzanes1.github.io/workoutlog/
 
-WebSite http://dolzanes.com/
+WebSite https://fdolzanes1.github.io/
